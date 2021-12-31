@@ -1,0 +1,8 @@
+2021-Dec-24 12:08:03 [main] com.testingshastra.util.TestListener 
+  INFO  Test is Fsiled. Taking ScreenShot
+2021-Dec-24 12:08:04 [main] com.testingshastra.util.TestListener 
+  INFO  screenshot is saved successfully
+2021-Dec-24 12:08:30 [main] com.testingshastra.util.TestListener 
+  INFO  Test is Fsiled. Taking ScreenShot
+2021-Dec-24 12:08:31 [main] com.testingshastra.util.TestListener 
+  INFO  screenshot is saved successfully

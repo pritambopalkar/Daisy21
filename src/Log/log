@@ -1,0 +1,4 @@
+2021-Dec-24 12:11:01 [main] com.testingshastra.util.TestListener 
+  INFO  Test is Fsiled. Taking ScreenShot
+2021-Dec-24 12:11:02 [main] com.testingshastra.util.TestListener 
+  INFO  screenshot is saved successfully

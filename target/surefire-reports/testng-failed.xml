@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="MicrosoftEdge-Test(failed)" verbose="0">
+    <parameter name="browser-name" value="Microsoft-Edge"/>
+    <classes>
+      <class name="com.testingshastra.UItests.IJmeet.POMHomePageTests">
+        <methods>
+          <include name="verifyTitleOfHomePage"/>
+          <include name="printAllInfoLinks"/>
+          <include name="verifyIfUserRedirectsToJoinMeetingPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testingshastra.UItests.IJmeet.POMHomePageTests -->
+      <class name="com.testingshastra.UItests.homepagetests.HomePageTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyTitleOfHomePage"/>
+        </methods>
+      </class> <!-- com.testingshastra.UItests.homepagetests.HomePageTests -->
+    </classes>
+  </test> <!-- MicrosoftEdge-Test(failed) -->
+  <test thread-count="2" parallel="tests" name="Chrome Test(failed)" verbose="0">
+    <parameter name="browser-name" value="Chrome"/>
+    <classes>
+      <class name="com.testingshastra.UItests.IJmeet.POMHomePageTests">
+        <methods>
+          <include name="verifyTitleOfHomePage"/>
+          <include name="printAllInfoLinks"/>
+          <include name="verifyIfUserRedirectsToJoinMeetingPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testingshastra.UItests.IJmeet.POMHomePageTests -->
+      <class name="com.testingshastra.UItests.homepagetests.HomePageTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyTitleOfHomePage"/>
+        </methods>
+      </class> <!-- com.testingshastra.UItests.homepagetests.HomePageTests -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

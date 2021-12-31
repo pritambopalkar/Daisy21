@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 4, Errors: 0, Skipped: 20, Time elapsed: 5.457 s <<< FAILURE! - in TestSuite
+com.testingshastra.UItests.homepagetests.HomePageTests.setUp[Microsoft-Edge](0)  Time elapsed: 0.774 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because "this.Driver" is null
+
+com.testingshastra.UItests.IJmeet.POMHomePageTests.setUp[Microsoft-Edge](0)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because "this.Driver" is null
+
+com.testingshastra.UItests.homepagetests.HomePageTests.setUp[Chrome](0)  Time elapsed: 3.312 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+
+com.testingshastra.UItests.IJmeet.POMHomePageTests.setUp[Chrome](0)  Time elapsed: 1.199 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+

@@ -1,0 +1,4 @@
+com\testingshastra\UItests\IJmeet\SceduleMeeting.class
+com\testingshastra\UItests\homepagetests\HomePageTests.class
+com\testingshastra\UItests\IJmeet\POMHomePageTests.class
+com\testingshastra\UItests\IJmeet\SignupPageTest.class
