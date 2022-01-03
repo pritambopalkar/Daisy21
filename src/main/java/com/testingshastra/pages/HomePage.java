@@ -16,12 +16,11 @@ public class HomePage {
 
 	@FindBy(css = "div#navbarContent li:nth-Child(1)")
 	public WebElement joinMeetingTab;
-	
+
 	@FindBy(css = "a[href*='host_meeting']")
 	public WebElement hostMeetingTab;
-	
-	public WebElement navbarContent; //Name or Id //*[@name='navbarContent'] OR //*[@id='navbarContent']
-	
+
+	public WebElement navbarContent; // Name or Id //*[@name='navbarContent'] OR //*[@id='navbarContent']
 
 	@FindBy(css = "div.footer-last-view-support div:nth-child(3) li a ")
 	public List<WebElement> infoLinks;
@@ -37,15 +36,22 @@ public class HomePage {
 
 	public void getTextOfInfoLinks() {
 		Iterator<WebElement> itr = infoLinks.iterator();
-		while(itr.hasNext()) {
+		while (itr.hasNext()) {
 			System.out.println(itr.next().getText());
 		}
 	}
-	
+
 	public void rightClickOnNavBarContent() {
 		Actions act = new Actions(k2.driver);
-		act.contextClick(navbarContent).build().perform();;
+		act.contextClick(navbarContent).build().perform();
 		
+
+	}
+
+	public List<WebElement> getAllLinks() {
+
+		return k2.driver.findElements(By.tagName("a"));
+
 	}
 
 }

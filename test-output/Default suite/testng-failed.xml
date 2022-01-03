@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testingshastra.UItests.IJmeet.POMHomePageTests">
+      <class name="com.testingshastra.UItests.homepagetests.HomePageTests">
         <methods>
-          <include name="verifyTitleOfHomePage"/>
-          <include name="printAllInfoLinks"/>
-          <include name="verifyIfUserRedirectsToJoinMeetingPage"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="verifyTitleOfHomePage"/>
         </methods>
-      </class> <!-- com.testingshastra.UItests.IJmeet.POMHomePageTests -->
+      </class> <!-- com.testingshastra.UItests.homepagetests.HomePageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -6,11 +6,11 @@ public class Application {
 	public static final String FILEPATH = "/src/main/resources/application.properties";
 
 	public String getBrowser() {
-		return PropertiesFile.getProperty(FILEPATH, "daisy.browser");
+		return PropertiesFile.getProperty(FILEPATH,"daisy.browser");
 	}
 
 	public String getAppUrl() {
-		return PropertiesFile.getProperty(FILEPATH, "daisy.qa.app.url2");
+		return PropertiesFile.getProperty(FILEPATH, "daisy.dev.app.url2");
 	}
 
 	public  String getDBUrl() {
